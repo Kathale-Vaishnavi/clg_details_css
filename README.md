@@ -1,0 +1,1 @@
+# clg_details_css
