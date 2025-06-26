@@ -1,0 +1,106 @@
+
+#background{ 
+  background-image: url(background.jpg);
+  background-position:center;
+  background-size:cover;
+  margin:0;
+  padding:0;
+  background-repeat: no-repeat;
+  color:rgb(250, 248, 248);
+}
+#img{
+  opacity:0.1;
+}
+  
+  table{
+  width: 80%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+
+table, th, td {
+  border: 1px solid #201a1a;
+}
+
+th {
+  background-color: #e7b0b0;
+  padding: 10px;
+  text-align:left;
+}
+
+td {
+  padding: 8px 12px;
+}
+
+
+td:nth-child(2):not(:empty) {
+  font-weight: bold;
+}
+
+
+.italic{
+  font-style: italic;
+}
+
+h1 {
+  background-color: #5bd65b;
+  color: black;
+  font-size: 28px;
+  text-align:right;
+  padding: 15px;
+  font-style: italic;
+  font-weight: bold;
+  margin:0;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1{ 
+    border width:5px 10px 2px 5px;
+    outline-style: solid;
+    outline-color: blue(15, 4, 4);
+    outline-width: thin;
+    background-color:rgb(127, 236, 127);
+    text-align:center;
+    font-size: 50px;
+    font-style: italic;
+    color:rgb(23, 109, 23);
+    box-shadow:-10px 20px 6px 10px gray ;
+    padding: 20px 40px 20px 60px;
+}
+
+p{
+    text-aline:right;
+    font-size:25px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 40px 20px 60px;
+    overflow:auto;
+}
+.hero img{
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a:hover {
+  color: rgba(12, 0, 7, 0.164);
+    font-size:25px;
+}
+
+table1{
+  width: 100%;
+  
+}
+th{
+  height: 70px;
+}
